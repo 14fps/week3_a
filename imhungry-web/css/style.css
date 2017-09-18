@@ -255,7 +255,8 @@ input{
 
 .res_list a img{
 	max-width: 300px;
-	max-height: 300px;
+	height: 300px;
+	object-fit: cover;
 	padding: 3px;
 	filter:blur(1.5px) brightness(50%);
 }
